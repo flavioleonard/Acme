@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+* {margin: 0px;
+padding: 0px;}
+
+#bg-img {background-image: url(img/background-header-img.png);
+opacity: 0.8;
+height: 65vh;
+}
