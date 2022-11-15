@@ -86,14 +86,30 @@ border: 1px solid rgb(171, 168, 168);
 
 #section01 { color: black;
 
-height: 30vh;
+height: 15vh;
 padding-top: 40px;
 padding-bottom: 40px;line-height: 1.5em;
 }
-.conteudo01 > h1 { font-size: 26px;
-font-weight: bold;}
+.conteudo01 > h1 {
+font-size: 26px;
+font-weight: bold;
+padding-bottom: 10px;}
 .conteudo01 {text-align: center;
+    
 
 line-height: 1.5em;}
 
+.coluna-50 {
+    
+    width: 50%;
+    
+    
+}
+.linha{ 
+    width: 90vw;
+    margin-top: 1.3em;
+    margin-left: 5%;
+    display: flex;
+flex-flow: row wrap;
+}
         
