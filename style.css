@@ -45,19 +45,55 @@ padding: 0px;}
 
 div.button {
    
-   background-color: rgb(8, 8, 8);
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 17px;
-   font-weight: normal;
-   padding-top:;
-   
-   border: 1px solid rgb(171, 168, 168);
-        width: 200px;
-        height: 100px;
-        
-        background-color:rgb(23, 21, 21);
-        display: inline-block;
-        
-        
 
-}    
+font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+font-weight: normal;
+position: relative;
+
+
+border: 1px solid rgb(171, 168, 168);
+    width: 175px;
+    height: 60px;
+
+    background-color:#1c1c1cde;
+    display: inline-block;}
+
+.read {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+}
+
+div.button:hover{
+ color: black;   
+font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+font-weight: normal;
+position: relative;
+
+
+border: 1px solid rgb(171, 168, 168);
+    width: 175px;
+    height: 60px;
+
+    background-color:#aaaaaac1;
+    display: inline-block;}
+
+
+#section01 { color: black;
+
+height: 30vh;
+padding-top: 40px;
+padding-bottom: 40px;line-height: 1.5em;
+}
+.conteudo01 > h1 { font-size: 26px;
+font-weight: bold;}
+.conteudo01 {text-align: center;
+
+line-height: 1.5em;}
+
+        
