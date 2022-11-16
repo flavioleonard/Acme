@@ -20,27 +20,27 @@ padding: 0px;}
     position: absolute;
     z-index: -1;
     inset: 0;
-    background: rgb(51, 44, 45);
+    background: rgba(54, 54, 54, 0.784);
     opacity: .5;
 }
 
 /*Atentar pra configuração que permite configurar a opacidade somente do fundo*/
 .contain > h1 {
-    font-size: 35px;
-    font-weight: bold;
+font-size: 35px;
+font-weight: bold;
 }
 
 .contain {
-    text-align: center;
-    color: white;
-    position: absolute;        
-    margin: auto;
-    left: 50%;
-    top: 40%;
-    transform: translate(-50%, -50%);
-    width: 90vw;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5em;
+text-align: center;
+color: white;
+position: absolute;        
+margin: auto;
+left: 50%;
+top:50%;
+transform: translate(-50%, -50%);
+width: 90vw;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.5em;
     }
 
 div.button {
@@ -53,23 +53,23 @@ position: relative;
 
 
 border: 1px solid rgb(171, 168, 168);
-    width: 175px;
-    height: 60px;
+width: 175px;
+height: 60px;
 
-    background-color:#1c1c1cde;
-    display: inline-block;}
+background-color:#1c1c1cde;
+display: inline-block;}
 
 .read {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
     
 
 }
 
 div.button:hover{
- color: black;   
+color: black;   
 font-family: Arial, Helvetica, sans-serif;
 font-size: 17px;
 font-weight: normal;
@@ -77,18 +77,19 @@ position: relative;
 
 
 border: 1px solid rgb(171, 168, 168);
-    width: 175px;
-    height: 60px;
+width: 175px;
+height: 60px;
 
-    background-color:#aaaaaac1;
-    display: inline-block;}
+background-color:#aaaaaac1;
+display: inline-block;}
 
 
 #section01 { color: black;
 
 height: 15vh;
 padding-top: 40px;
-padding-bottom: 40px;line-height: 1.5em;
+padding-bottom: 40px;
+line-height: 1.5em;
 }
 .conteudo01 > h1 {
 font-size: 26px;
@@ -101,15 +102,45 @@ line-height: 1.5em;}
 
 .coluna-50 {
     
-    width: 50%;
+width: 50%;
     
     
 }
 .linha{ 
-    width: 90vw;
-    margin-top: 1.3em;
-    margin-left: 5%;
-    display: flex;
+width: 90vw;
+margin-top: 1.3em;
+margin-left: 5%;
+display: flex;
 flex-flow: row wrap;
 }
-        
+
+#section02 {
+
+    background-color: #333333;
+    height: 70vh;
+    display: flex;
+    flex-flow: row wrap;
+    display: inline-block;
+   
+    
+
+    }
+
+.retangulo {
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    float: left;
+    padding: 3em;
+    margin-top: 5vh;
+    margin-left: 5vw;}
+
+
+.img { 
+    
+
+    width: 15%;
+    position: absolute;
+}
+
+#r01 {background-image: url(img/pexels-photo-574077.jpeg);}
