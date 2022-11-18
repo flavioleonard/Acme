@@ -30,6 +30,8 @@ font-size: 35px;
 font-weight: bold;
 }
 
+
+.title {color: white;}
 .contain {
 text-align: center;
 color: white;
@@ -86,7 +88,7 @@ display: inline-block;}
 
 #section01 { color: black;
 
-height: 15vh;
+min-height: 15vh;
 padding-top: 40px;
 padding-bottom: 40px;
 line-height: 1.5em;
@@ -114,33 +116,92 @@ display: flex;
 flex-flow: row wrap;
 }
 
-#section02 {
+h1, h2, h3 {
+    color: #333333
+}
+.container02 {
+    
 
     background-color: #333333;
-    height: 70vh;
-    display: flex;
-    flex-flow: row wrap;
-    display: inline-block;
-   
+    height: 90vh;
     
-
-    }
-
-.retangulo {
-    width: 20%;
-    background-color: rgb(255, 255, 255);
-    position: relative;
-    float: left;
-    padding: 3em;
-    margin-top: 5vh;
-    margin-left: 5vw;}
-
-
-.img { 
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
     
-
-    width: 15%;
-    position: absolute;
 }
 
-#r01 {background-image: url(img/pexels-photo-574077.jpeg);}
+#section02 > ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+}
+
+#section02 > ul > li {
+    border-radius: 4px;
+    margin-bottom: 1em;
+    background: rgb(255, 253, 253);
+    color: #333;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    width: 31%;
+    margin: 10px;
+}
+
+.retangulo {
+    max-height: 90%;
+}
+
+.card {
+    display: block;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h3 {
+    margin: 0;
+    padding: 1em 0;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #333333;
+}
+
+.card-text {
+    text-align: center;
+    display: block;
+    margin: 0;
+    padding: 1em 0;
+    font-size: 1.3em;
+}
+
+.card-content {
+    padding: 1.5em;
+}
+
+#section03 { color: black;
+
+    min-height: 15vh;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    line-height: 1.5em;
+    }
+    .conteudo03 > h1 {
+    font-size: 26px;
+    font-weight: bold;
+    padding-bottom: 10px;}
+    .conteudo03 {text-align: center;
+    line-height: 1.5em;}
+
+    .conteudo03 > p {
+        margin-left:200px ;
+        margin-right: 200px;
+        text-align: center;
+    }
+
