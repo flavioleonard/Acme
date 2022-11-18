@@ -205,3 +205,35 @@ h3 {
         text-align: center;
     }
 
+    .container04 {
+        display: flex;
+        
+    }
+    
+    #inf > h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 26px;
+        color: #FFFFFF;
+        text-align: center;
+        
+    }
+    
+    #inf {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        color: #FFFFFF;
+        padding: 50px;
+    }
+    
+    .about {
+        background-color:#2690D4 ;
+    }
+    
+    .contact {
+        background-color: #333333;
+    }
+    .email {
+        display: block;
+        margin-left: 30%;
+    }
